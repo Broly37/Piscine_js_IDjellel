@@ -131,3 +131,16 @@ Explications du programme, Peter est le nom indiqué par l'utilisateur, le progr
 console.log("hello user!")
 let name= prompt("how are you today ? what's your name ?")
 console.log("Have a nice day " +name + ' !')
+
+9
+
+//Pensez à tester votre code sur index.js
+
+  */
+console.log("Welcome to my secret diary !")
+const name = prompt("What's your name ?")
+if (name==="David"){
+  console.log("I really wanna stay at your house, and i hope this works out");
+}else{
+  console.log("Get away!");
+}
