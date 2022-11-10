@@ -146,17 +146,38 @@ if (name==="David"){
 }
 
 10
-// ChoomChoom
-
-/* Ecrivez une fonction choomChoom qui prend en paramètre un nombre entier et qui retourne la chaîne de caractère Choom si le nombre est pair et ChoomChoom si le nombre est impair */
-
-/* exemple : nombre 4 ===> "Choom"
-              nombre 5 ===> "ChoomChoom"    */
 
 
 function choomChoom(a){
   if (a % 2 == 0) {
-     return("choom")
+     return("Choom")
   }else{
-   return("choomchoom")
+   return("ChoomChoom")
   }
+}
+// Ne touchez pas les lignes en dessous
+module.exports = {
+  choomChoom
+}
+
+11
+
+function cyberNumber(a){
+if (a % 3 == 0 && a % 5 == 0  ) {
+  console.log("CyberPunk2077");
+  return "CyberPunk2077";
+}  if ( a % 3 == 0){
+  console.log("Cyber")
+  return "Cyber"
+} if (a % 5 == 0 ){
+  console.log("Punk");
+  return "Punk";
+}  else {
+console.log("pas mutliple de 3 et 5")
+}
+
+}
+
+module.exports = {
+  cyberNumber
+}
