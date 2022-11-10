@@ -144,3 +144,18 @@ if (name==="David"){
 }else{
   console.log("Get away!");
 }
+
+10
+function choomChoom(a){
+  a = prompt("entrer un chiffre")
+  if (a % 2 == 0) {
+     console.log("choom")
+  }  else{
+     console.log("choomchoom")
+  }
+}
+choomChoom();
+// Ne touchez pas les lignes en dessous
+module.exports = {
+  choomChoom
+}
