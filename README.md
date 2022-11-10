@@ -181,3 +181,33 @@ console.log("pas mutliple de 3 et 5")
 module.exports = {
   cyberNumber
 }
+
+12
+ 
+
+function bissextile (year){
+        if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+        console.log("0")
+        return 0
+        } else {
+        console.log("1")
+        return 1
+          }
+        }
+
+
+module.exports = {
+  bissextile
+}
+
+
+13
+
+function toto(a,b){
+          console.log(((a+b)*b)/2);
+          return ((a+b)*b)/2
+        } 
+
+
+         module.exports = {toto}
+           
